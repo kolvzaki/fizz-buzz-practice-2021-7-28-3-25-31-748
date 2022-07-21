@@ -50,4 +50,13 @@ public class FizzBuzzTest {
         String output = fizzBuzz.countOff(number);
         assertThat(output).isEqualTo(expected);
     }
+
+    @Test
+    public void should_return_buzzwhizz_when_countOff_given_35(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        int number = 35;
+        String expected = FizzBuzzResult.BUZZ_WHIZZ;
+        String output = fizzBuzz.countOff(number);
+        assertThat(output).isEqualTo(expected);
+    }
 }

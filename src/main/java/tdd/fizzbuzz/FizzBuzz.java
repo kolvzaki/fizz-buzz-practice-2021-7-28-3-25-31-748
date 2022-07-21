@@ -12,6 +12,9 @@ public class FizzBuzz {
             return FizzBuzzResult.FIZZ;
         }
         if (FizzBuzzUtil.isBuzz(number)) {
+            if (number%35==0){
+                return "BuzzWhizz";
+            }
             return FizzBuzzResult.BUZZ;
         }
         if (FizzBuzzUtil.isWhizz(number)) {
