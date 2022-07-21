@@ -15,10 +15,20 @@ public class FizzBuzzTest {
         assertThat(output).isEqualTo(expected);
     }
 
-    @Test void should_return_buzz_when_countOff_given_5(){
+    @Test
+    public void should_return_buzz_when_countOff_given_5(){
         FizzBuzz fizzBuzz = new FizzBuzz();
         int number = 5;
         String expected = FizzBuzzResult.BUZZ;
+        String output = fizzBuzz.countOff(number);
+        assertThat(output).isEqualTo(expected);
+    }
+
+    @Test
+    public void should_return_whizz_when_countOff_given_7(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        int number = 7;
+        String expected = FizzBuzzResult.WHIZZ;
         String output = fizzBuzz.countOff(number);
         assertThat(output).isEqualTo(expected);
     }

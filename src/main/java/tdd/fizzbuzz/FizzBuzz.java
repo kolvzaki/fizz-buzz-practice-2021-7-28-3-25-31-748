@@ -8,6 +8,9 @@ public class FizzBuzz {
         if (FizzBuzzUtil.isBuzz(number)){
             return FizzBuzzResult.BUZZ;
         }
+        if (number%7==0){
+            return "Whizz";
+        }
         return String.valueOf(number);
     }
 }
