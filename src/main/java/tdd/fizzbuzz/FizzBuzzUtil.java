@@ -20,4 +20,7 @@ public class FizzBuzzUtil {
     public static Boolean isFizzWhizz(int number){
         return isFizz(number)&&isWhizz(number);
     }
+    public static Boolean isBuzzWhizz(int number){
+        return isBuzz(number)&&isWhizz(number);
+    }
 }
