@@ -68,4 +68,12 @@ public class FizzBuzzTest {
         String output = fizzBuzz.countOff(number);
         assertThat(output).isEqualTo(expected);
     }
+    @Test
+    public void should_return_1_when_countOff_given_1(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        int number = 1;
+        String expected = "1";
+        String output = fizzBuzz.countOff(number);
+        assertThat(output).isEqualTo(expected);
+    }
 }
