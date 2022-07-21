@@ -5,6 +5,9 @@ public class FizzBuzz {
         if (FizzBuzzUtil.isFizz(number)){
             return FizzBuzzResult.FIZZ;
         }
+        if (number%5==0){
+            return "Buzz";
+        }
         return String.valueOf(number);
     }
 }
