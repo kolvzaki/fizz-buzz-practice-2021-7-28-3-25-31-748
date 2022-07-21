@@ -2,6 +2,9 @@ package tdd.fizzbuzz;
 
 public class FizzBuzz {
     public String countOff(int number) {
+        if (number%105==0){
+            return "FizzBuzzWhizz";
+        }
         if (FizzBuzzUtil.isFizz(number)) {
             if (FizzBuzzUtil.isFizzBuzz(number)){
                 return FizzBuzzResult.FIZZ_BUZZ;

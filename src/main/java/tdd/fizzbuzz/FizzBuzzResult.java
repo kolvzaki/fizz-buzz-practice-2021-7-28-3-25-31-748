@@ -8,4 +8,5 @@ public class FizzBuzzResult {
 
     public static final String FIZZ_WHIZZ = "FizzWhizz";
     public static final String BUZZ_WHIZZ = "BuzzWhizz";
+    public static final String FIZZ_BUZZ_WHIZZ = "FizzBuzzWhizz";
 }
