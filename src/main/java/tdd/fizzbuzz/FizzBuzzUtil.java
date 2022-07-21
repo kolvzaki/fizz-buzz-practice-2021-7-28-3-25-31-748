@@ -16,4 +16,8 @@ public class FizzBuzzUtil {
     public static Boolean isFizzBuzz(int number){
         return isFizz(number)&&isBuzz(number);
     }
+
+    public static Boolean isFizzWhizz(int number){
+        return isFizz(number)&&isWhizz(number);
+    }
 }

@@ -6,8 +6,8 @@ public class FizzBuzz {
             if (FizzBuzzUtil.isFizzBuzz(number)){
                 return FizzBuzzResult.FIZZ_BUZZ;
             }
-            if (number%3==0&&number%7==0){
-                return "FizzWhizz";
+            if (FizzBuzzUtil.isFizzWhizz(number)){
+                return FizzBuzzResult.FIZZ_WHIZZ;
             }
             return FizzBuzzResult.FIZZ;
         }
